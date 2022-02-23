@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="favicon.png" type="image/png" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://unpkg.com/swiper@7/swiper-bundle.min.js"
+      defer
+    ></script>
+    <script src="js/main.js" defer></script>
+    <title>Movie TMDB API</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__block _container">
+          <a href="index.html" class="header__logo"
+            ><span class="header__logo_size">movie</span><span>bomb</span></a
+          >
+          <form id="search" class="search">
+            <input
+              class="search__input"
+              name="search"
+              type="text"
+              autocomplete="off"
+              placeholder="Введите название..."
+            />
+            <input class="search__btn" type="submit" value="" />
+          </form>
+        </div>
+      </header>
+      <section class="content__block _container">
+        <div class="genres__block">
+          <h3 class="genres__title">Жанры</h3>
+        </div>
+
+        <div class="content">
+          <div class="card__item card">
+            <div class="card__poster">
+              <img
+                class="card__poster-images"
+                src="https://resheto.net/images/mater/pozitivnye_kartinki_2.jpg"
+                alt=""
+              />
+              <span class="card__rating">7.8</span>
+            </div>
+            <h2 class="card__title">Lorem ipsum dolor sit amet.</h2>
+          </div>
+        </div>
+      </section>
+
+      <!-- <div class="swiper swiper-video">
+        <div class="swiper-wrapper"> -->
+      <!-- <div class="swiper-slide">
+            <iframe
+              src="https://www.youtube.com/embed/nb4TOdrFxeQ"
+              srcdoc="<style>*{padding:0;margin:0;overflow:hidden}
+                html,body{height:100%}
+                img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+                span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+                </style>
+                <a href=https://www.youtube.com/embed/nb4TOdrFxeQ?autoplay=1>
+                <img src=https://img.youtube.com/vi/nb4TOdrFxeQ/hqdefault.jpg alt='Demo video'>
+                <span>▶</span>
+                </a>"
+            ></iframe>
+          </div>
+          <div class="swiper-slide">
+            <iframe
+              src="https://www.youtube.com/embed/V0hagz_8L3M"
+              srcdoc="<style>*{padding:0;margin:0;overflow:hidden}
+              html,body{height:100%}
+              img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+              span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+              </style>
+              <a href=https://www.youtube.com/embed/V0hagz_8L3M?autoplay=1>
+              <img src=https://img.youtube.com/vi/V0hagz_8L3M/hqdefault.jpg alt='Demo video'>
+              <span>▶</span>
+              </a>"
+            ></iframe>
+          </div> -->
+      <!-- </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div> -->
+    </div>
+  </body>
+</html>
